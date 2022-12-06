@@ -65,8 +65,13 @@ Run migrations with the following commands
 ```bash
   python manage.py migrate
 ```
-## Run Locally
+## Admin
+Create a super user
+```bash
+  python manage.py createsuperuser
+```
 
+## Run Locally
 Start the server
 
 ```bash
